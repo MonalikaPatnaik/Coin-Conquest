@@ -12,7 +12,6 @@ Material:
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _EMISSION
-  - _NORMALMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
