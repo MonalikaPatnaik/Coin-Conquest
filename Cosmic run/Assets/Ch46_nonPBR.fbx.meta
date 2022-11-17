@@ -11,22 +11,22 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch46_1001_Diffuse
-    second: {fileID: 2800000, guid: 91ea416815d409148aca014135c35e8d, type: 3}
+    second: {fileID: 2800000, guid: 31ae08528f62e3c4d966d54dde736687, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch46_1001_Glossiness
-    second: {fileID: 2800000, guid: 5df99bf73a309a840b702620c5d32c6f, type: 3}
+    second: {fileID: 2800000, guid: f154114e7218ad449ab9218eb78d103e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch46_1001_Normal
-    second: {fileID: 2800000, guid: f2ba40ca7981a4b409ad594e252ee1e5, type: 3}
+    second: {fileID: 2800000, guid: f12af5a71c34361468aef77a5eab7818, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch46_1001_Specular
-    second: {fileID: 2800000, guid: b27b7cbaef7493843bffa36d01e5e17d, type: 3}
+    second: {fileID: 2800000, guid: 53da6f629f1aecb4485aee0bbeeb692b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -98,7 +98,8 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
+  referencedClips:
+  - ff474e5786a50d84e82f07acae351662
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
