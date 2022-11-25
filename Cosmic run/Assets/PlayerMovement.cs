@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private CharacterController characterController;
     private float ySpeed;
-    private float jumpHorizontalSpeed;
+    private readonly float jumpHorizontalSpeed;
     private float originalStepOffset;
     private float? lastGroundedTime;
     private float? jumpButtonPressedTime;
@@ -30,10 +30,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("Vertical");
+        float verticalInput = Input.GetAxis("Horizontal");
 
-        Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        Vector3 movementDirection = new(horizontalInput, 0, verticalInput);
         float magnitude = Mathf.Clamp01(movementDirection.magnitude) * speed;
         movementDirection.Normalize();
 

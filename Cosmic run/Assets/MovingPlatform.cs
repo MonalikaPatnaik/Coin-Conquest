@@ -29,7 +29,7 @@ public class MovingPlatform : MonoBehaviour
         _elapsedTime += Time.deltaTime;
 
         float elapsedPercentage = _elapsedTime / _timeToWaypoint;
-        transform.position = Vector3.Lerp(_previousWaypoint.position, _targetWaypointIndex.position, elapsedPercentage);
+    
         
         if(elapsedPercentage >= 1){
             TargetNextWaypoint();

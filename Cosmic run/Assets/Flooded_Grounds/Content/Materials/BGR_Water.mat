@@ -13,7 +13,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 08fee7c705165d84294fc4eb7c8a3a10, type: 3}
+        m_Texture: {fileID: 2800000, guid: f68e751b4a9a34244a007f53fcc236b5, type: 3}
         m_Scale: {x: 25, y: 25}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -120,8 +120,8 @@ Material:
     - _SpecContrast: 2
     - _SpecIntensity: 2.3
     - _Transparency: 0.95
-    - _WaveFreq: 20
-    - _WaveHeight: 0.25
+    - _WaveFreq: 25
+    - _WaveHeight: 0.7
     - _WavePower: 1.4029856
     - _WaveScale: 0.058
     - _fogEnd: 400
