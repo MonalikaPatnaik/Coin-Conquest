@@ -13,4 +13,8 @@ public class PlayerInventory : MonoBehaviour
       NumberOfDiamonds++;
       OnDiamondCollected.Invoke(this);
    }
+    public int GetFinalScore()
+    {
+        return NumberOfDiamonds;
+    }
 }
