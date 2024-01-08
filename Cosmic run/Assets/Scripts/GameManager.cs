@@ -2,27 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public GameObject gameOverUI;
+    private TextMeshProUGUI diamondText;
+    // public Diamond diamond;
     // public CameraRecentre freeLookCamera;
-    void Update(){
+    void Update()
+    {
         if (gameOverUI.activeInHierarchy)
-    Cursor.visible = true;
+        {
+                Cursor.visible = true;
     Cursor.lockState = CursorLockMode.None;
+            diamondText = GetComponent<TextMeshProUGUI>();
+            diamondText.text = Diamond.score.ToString();
+
+        }
 
     }
-    public void gameOver(){
+    public void gameOver()
+    {
         gameOverUI.SetActive(true);
-        //  if (freeLookCamera != null)
-        // {
-        //     camera.m_RecenterToTargetHeading.m_enabled = false;
-        // }
+        // freeLookCamera.LockCameraMovement();
     }
-    public void restart(){
+    public void restart()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Debug.Log("Restart");
-
     }
 }

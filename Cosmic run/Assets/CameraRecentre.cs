@@ -1,28 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
 public class CameraRecentre : MonoBehaviour
 {
-    private new CinemachineFreeLook camera;
+    private CinemachineFreeLook cinemachineCamera;
+    private bool isCameraMovementLocked = false;
 
-    // Start is called before the first frame update
     void Start()
     {
-        camera = GetComponent<CinemachineFreeLook>();
+       cinemachineCamera = GetComponent<CinemachineFreeLook>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxis("CameraRecentre") == 1)
+        if (!isCameraMovementLocked)
         {
-            camera.m_RecenterToTargetHeading.m_enabled = true;
+            if (Input.GetAxis("CameraRecentre") == 1)
+            {
+                cinemachineCamera.m_RecenterToTargetHeading.m_enabled = true;
+            }
         }
-        else
-        {
-            camera.m_RecenterToTargetHeading.m_enabled = false;
-        }
+    }
+
+    public void LockCameraMovement()
+    {
+        cinemachineCamera.m_RecenterToTargetHeading.m_enabled = false;
+    }
+
+    public void UnlockCameraMovement()
+    {
+        isCameraMovementLocked = false;
     }
 }

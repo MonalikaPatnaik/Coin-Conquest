@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         characterController = GetComponent<CharacterController>();
         originalStepOffset = characterController.stepOffset;
-        
+        Diamond.score=0;
        
     }
 
