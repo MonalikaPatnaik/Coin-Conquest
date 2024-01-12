@@ -1,24 +1,67 @@
-# Diamond-Digger
+# Coin Conquest - Endless Runner Game
 
-In this Endless runner game, you will be controlling a character Kate running through an endless terrain. You will have to dodge obstacles and collect coins as you go. You will also have to use your special abilities to help you get to the end of the level as fast as you can.
+Welcome to Coin Conquest, an exciting endless runner game built on the Unity 3D engine. Join Kate on her endless journey as she runs through challenging terrain, dodging obstacles, and collecting coins. Get ready for an exhilarating adventure in the world of Coin Conquest!
 
-**Controls:**
+## Table of Contents
 
-***^*** or ***w*** command—for moving forward.
+1. [Game Overview](#game-overview)
+2. [Setting Up the Game](#setting-up-the-game)
+3. [Basic Flow of the Game](#basic-flow-of-the-game)
+4. [Controls](#controls)
 
-***v*** or ***s*** command—for moving backwards.
+## Game Overview
 
-***>*** or ***d*** command—for moving left.
+Coin Conquest is an endless runner game where the player, Kate, embarks on a thrilling journey through an endless terrain. The goal is to dodge various obstacles strategically and collect as many coins as possible to achieve the highest score. With engaging gameplay and vibrant visuals, Coin Conquest offers an immersive experience for players of all ages.
 
-***<*** or ***a*** command—for moving right.
+## Setting Up the Game
 
-***Space*** to jump
+Follow these steps to set up and run Coin Conquest on your system:
+
+### Prerequisites
+
+- **Unity 3D:** Ensure you have Unity 3D installed on your machine. You can download it [here](https://unity.com/download).
+- **Unity Editor:** Ensure to install the Unity Editor 64-bit version 2021.3.8f1.You can download the editor for mac or windows from [here](https://unity.com/releases/editor/archive#download-archive-2021).
+  
+### Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/coin-conquest.git
+   ```
+
+2. Open the project in Unity 3D.
+
+3. Navigate to the "Scenes" folder and open the "SampleScene" to access the main game scene.
+
+4. Set up the desired platform and build settings in Unity.
+
+5. Click the "Play" button in Unity to run the game.
+
+## Basic Flow of the Game
+
+- **Start Screen:** The game starts with a captivating start screen introducing Kate and the quest for coins.
+  ![image](https://github.com/MonalikaPatnaik/Coin-Conquest/assets/99353300/b9240d74-8bf4-4b3c-a3dc-d96ea0d0d8ef)
+
+- **Gameplay:** Kate can move left, right, forward, backward and can jump throughout the game.
+
+- **Obstacles:** Various obstacles, such as drums, fallen trees, and wooden boxes, will challenge your reflexes. Navigate through them to stay in the game.
+
+- **Coins:** Collect coins scattered throughout the terrain to earn points. The more coins you collect, the higher your score.
+
+- **Endless Terrain:** The game features an endless terrain consisting rivers, bridges, trees and flowers, providing an ever-changing and dynamic environment for endless fun.
+
+- **Game Over:** The game ends when Kate collides with an obstacle. Your final score is displayed, and you can choose to play again by clicking the "Restart" button shown on the end screen for a higher score.
+  ![image](https://github.com/MonalikaPatnaik/Coin-Conquest/assets/99353300/8d6522db-c914-4e39-a967-a83204b835ff)
+
+  
+
+## Controls
+
+- ***^*** or ***w*** command—for moving forward.
+- ***v*** or ***s*** command—for moving backwards.
+- ***>*** or ***d*** command—for moving left.
+- ***<*** or ***a*** command—for moving right.
+- ***Space*** to jump
 
 
-**Objective:**
-Your goal is to collect as many coins as you are navigating through the terrain.
-
-Enjoy!
-
-*Want to read more deatils about the implementation and working?*
-Go ahead and checkout [this](https://drive.google.com/file/d/1W9LaH3-1CgeL7hDk-1biG1dPaQT-QfID/view?usp=sharing).
+Enjoy playing Coin Conquest! If you have any questions or feedback, don't hesitate to reach out. Happy Gaming! 🏃💰
